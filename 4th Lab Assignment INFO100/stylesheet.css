@@ -1,0 +1,35 @@
+*{text-align: center;}
+
+/*Class innstilinger*/
+.Hovedsiden{background-color: #a8ffe1;}
+.Registreringssiden{background-color: #ffa8d8}
+.Evalueringssiden{background-color: #a8beff}
+.Resultatsiden{background-color: #b0ffa8}
+
+/*Id Innstillinger*/
+#footer{position: absolute; bottom: 0; width: 100%; height: 100px;}
+#bedrift:hover{color: #ff00ff;}
+#bedriftsInfo{}
+
+/*Generell header innstillinger*/
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+h4{text-align: center;}
+h5{text-align: center;}
+h6{text-align: center;}
+
+/*Navigasjonsbar innstillinger*/
+body>ul>a:nth-child(1){background-color: #a8ffe1;
+font-family: Verdana; padding: 8px; border-style: groove; margin: 8px;}
+body>ul>a:nth-child(2){background-color: #ffa8d8;
+font-family: Verdana; padding: 8px; border-style: groove; margin: 8px;}
+body>ul>a:nth-child(3){background-color: #a8beff;
+font-family: Verdana; padding: 8px; border-style: groove; margin: 8px;}
+body>ul>a:nth-child(4){background-color: #b0ffa8;
+font-family: Verdana; padding: 8px; border-style: groove; margin: 8px;}
+
+body>ul>a:nth-child(1):hover{color: #ff00ff;}
+body>ul>a:nth-child(2):hover{color: #ff00ff;}
+body>ul>a:nth-child(3):hover{color: #ff00ff;}
+body>ul>a:nth-child(4):hover{color: #ff00ff;}
